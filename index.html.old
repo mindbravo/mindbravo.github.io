@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<!--[if IE 8]>    <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html> <!--<![endif]-->
+
+  <!-- Website is under development!
+       Thanks for checking this source code
+       Yes we are cheapskates, lol nope, we're going lean hence why we are using github.io
+       Email us at mindbravo88@gmail.com -->
+
+  <head>
+
+	  <!-- charset -->
+	  <meta charset="utf-8">
+
+	  <title>Mindbravo.com</title>
+
+	  <!-- viewport -->
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	  <!--  including stylesheets-->
+	  <link rel="stylesheet" type="text/css" href="css/reset.min.css">
+	  <link rel="stylesheet" type="text/css" href="css/d_blue.css" class="main-stylesheet">
+
+	  <style type="text/css">
+	   .station a, .skillset a {
+		   color: #fff;
+	   }
+
+	   .station a:hover {
+		   color: #3192e4;
+	   }
+	  </style>
+
+	  <!--[if IE]>
+	    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	  <![endif]-->
+
+	  <!-- google fonts-->
+	  <link href='http://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+  </head>
+  <body>
+
+	  <div class="container-left">
+
+		  <div class="container-left-picture">
+
+			  <!-- Your profile picture -->
+
+			  <img class="avatar" src="http://res.cloudinary.com/ep-test/image/upload/c_scale,q_auto:best,w_300/v1522039904/mindbravo_logo.png" alt="">
+
+			  <!-- Social media links -->
+
+			  <ul class="navigation">
+				  <li><a href="#about"><span class="icon-docs"></span></a></li>
+				  <li><a href="#contact"><span class="icon-mail"></span></a></li>
+			  </ul>
+
+		  </div>
+
+		  <!-- Personal facts -->
+
+		  <div class="container-left-info">
+
+			  <ul class="container-left-info-tabs">
+
+			    <li>
+
+				    <ul class="personal-info">
+
+					    <li><span>Company Name:</span><span>Mindbravo Sdn Bhd</span></li>
+					    <li><span>Location:</span><span>Kota Kinabalu, Sabah, Malaysia</span></li>
+
+				    </ul>
+
+			    </li>
+
+			  </ul>
+
+		  </div>
+
+	  </div>
+
+	  <!-- Content for right container -->
+
+	  <div class="container-right">
+
+	    <div class="show-info-mobile"><span class="icon-menu"></span></div>
+
+	    <ul class="tab-list">
+
+		    <li class="tab-about">
+
+			    <div class="grid">
+
+				    <div class="row">
+
+				      <!--Introduction -->
+
+				      <h1 class="site-title"><a name="about">About us</a></h1>
+
+				      <div class="g-1">
+
+					      <p class="introduction">
+
+                  We are a research and development team working on converging technologies.
+
+						    </p>
+
+
+					      </p>
+
+				      </div>
+
+				    </div>
+
+				    <!-- Radar -->
+				    <div class="row">
+
+				      <div class="g-1">
+					      <h3 class="sub-heading">What's on our radar:</h3>
+				      </div>
+
+				      <div class="g-2">
+					      <ul class="employment">
+
+                  <li>Chatbots</li>
+                  <li>E-Commerce</li>
+                  <li>Internet of Things</li>
+                  <li>Robotics</li>
+                  <li>Blockchain</li>
+					      </ul>
+				      </div>
+
+              <div class="g-2">
+					      <ul class="employment">
+                  <li>Extended Reality (VR/AR)</li>
+						      <li>Artificial Intelligence</li>
+                  <li>Quantum Computing</li>
+                  <li>Biohacking</li>
+                  <li>Self driving car</li>
+					      </ul>
+				      </div>
+
+				    </div>
+
+				    <!-- What we do -->
+				    <div class="row">
+
+				      <div class="g-1">
+					      <h3 class="sub-heading">What we do:</h3>
+				      </div>
+
+				      <div class="g-2">
+					      <ul class="employment">
+						      <li>Research, analysis and reporting</li>
+                  <li>Bizdev</li>
+                  <li>Consultancy</li>
+					      </ul>
+				      </div>
+
+				      <div class="g-2">
+					      <ul class="employment">
+                  <li>Product development</li>
+                  <li>Online marketing</li>
+                  <li>Tech event planning</li>
+					      </ul>
+				      </div>
+
+				    </div>
+
+		    </li>
+
+
+		    <li class="tab-contact">
+
+			    <div class="grid">
+
+				    <div class="row">
+
+					    <!-- Contact Form -->
+
+					    <h2 class="sub-title"><a name="contact">Contact</a></h2>
+
+					    <div class="g-1">
+
+						    <p>
+							    You may reach us via <a href="mailto:contact@mindbravo.com">email</a><br><br>
+						    </p>
+
+					    </div>
+
+				    </div>
+
+			    </div>
+
+		    </li>
+
+	    </ul>
+
+	        </div>
+
+          <!-- including js -->
+          <script type="text/javascript" src="js/jquery.min.js"></script>
+          <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+          <script type="text/javascript" src="js/gmap3.min.js"></script>
+          <script type="text/javascript" src="js/additional-scripts.min.js"></script>
+          <script type="text/javascript" src="js/custom.js"></script>
+
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+  </body>
+</html>
